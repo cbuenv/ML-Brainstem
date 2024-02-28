@@ -142,7 +142,7 @@ Gene_logistics.xlsx
 ----------
 
 ### Operation: [Current Work]
-A continuation of the previous op, Operation: DEN/INT_reCorr, the purpose of this op was to build off of the insight gained from the in-depth correlational analysis based on the Coronal DEN and INT data frames and look into possible avenues to implement dimension reduction and mitigate noise. 
+A continuation of the previous op, Operation: DEN/INT_reCorr, the purpose of this op was to build on the insight gained from the in-depth correlational analysis based on the Coronal DEN and INT data frames and look into possible avenues to implement dimension reduction and mitigate noise.
 
 The brainScan() function was created to act as a diagnostic tool, to look closer at the distribution of the gene expressions for a given data frame, by perform categorical binning analysis. 
 
