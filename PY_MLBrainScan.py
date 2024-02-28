@@ -150,9 +150,9 @@ def brainScan():
     then displaying centroids as vertical lines across a general histogram
     """
 
-    print("THE JACOB SPECIAL: Running k-means clustering on the selected dataset in 4, 6, 8, and 13 initial clusters, "
-          "then displaying centroids as vertical lines across a general histogram")
-    jacobProtocol = input("\n\nWould you like to initiate protocol? y/n?: ")
+    print("\n\nTHE JACOB SPECIAL: Running k-means clustering on the selected dataset in 4, 6, 8, and 13 initial"
+          "clusters, then displaying centroids as vertical lines across a general histogram")
+    jacobProtocol = input("\nWould you like to initiate protocol? y/n?: ")
     if jacobProtocol.lower() == "y":
 
         # Extracting expression values from the DataFrame
