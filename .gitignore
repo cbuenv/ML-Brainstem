@@ -1,4 +1,3 @@
 # Ignore .idea directory and its contents
 .idea/
 .DS_Store
-*.csv
