@@ -156,7 +156,7 @@ def brainScan():
     if jacobProtocol.lower() == "y":
 
         # Extracting expression values from the DataFrame
-        expression_values = df.values.flatten().reshape(-1, 1)
+        expression_values = df.values
 
         # Implementing iteration of 4, 6, 8, 13 clusters
         for k_value in [4, 6, 8, 13]:
@@ -170,7 +170,7 @@ def brainScan():
             print(f"--   CLUSTER: {k_value}   --")
 
             # Displaying centroids for 4, 6, 8, and 13 initial clusters
-            centroids = kmeans.cluster_centers_.flatten()
+            centroids = kmeans.cluster_centers_
             print(f"\nK-means centroids of {k_value} clusters:")
             for i, centroid in enumerate(centroids):
                 print(f"Cluster {i + 1}: {centroid}")
